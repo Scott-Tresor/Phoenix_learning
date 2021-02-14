@@ -2,6 +2,7 @@ use Mix.Config
 
 # Configure your database
 config :hello_phoenix, HelloPhoenix.Repo,
+  adapter: Ecto.Adapters.MySQL,
   username: "root",
   password: "",
   database: "hello_phoenix_dev",
